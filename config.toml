@@ -31,7 +31,7 @@ tocopen = true
 
 [params.homeInfoParams]
 Title = 'Junjia'
-Content = '一个卑微的、不断学习的小前端。'
+Content = '一个微小的、不断学习的前端。'
 
 [[params.socialIcons]]
 name = 'github'
