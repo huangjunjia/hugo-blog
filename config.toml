@@ -16,7 +16,7 @@ minifyOutput = true
 
 [params]
 env = 'production'
-description = 'Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod'
+description = 'My homepage: https://github.com/huangjunjia'
 author = 'Junjia Huang'
 defaultTheme = 'auto'
 ShowReadingTime = true
