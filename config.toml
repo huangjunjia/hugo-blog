@@ -7,9 +7,6 @@ defaultContentLanguage = 'zh'
 
 enableInlineShortcodes = true
 enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
 enableEmoji = true
 pygmentsUseClasses = true
 
@@ -39,7 +36,3 @@ Content = '一个卑微的、不断学习的小前端。'
 [[params.socialIcons]]
 name = 'github'
 url = 'https://github.com/huangjunjia'
-
-
-[params.profileMode]
-enabled = true
