@@ -1,0 +1,51 @@
+baseURL = 'https://blog.junjia.fun/'
+languageCode = 'zh-cn'
+title = 'Junjia 的博客'
+theme = 'PaperMod'
+
+defaultContentLanguage = 'zh'
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[outputs]
+home = [ "HTML" ]
+
+[params]
+env = 'production'
+description = 'Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod'
+author = 'Junjia Huang'
+defaultTheme = 'auto'
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+UseHugoToc = true
+comments = false
+showtoc = true
+tocopen = true
+
+[params.homeInfoParams]
+Title = 'Junjia'
+Content = '一个卑微的、不断学习的小前端。'
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/huangjunjia'
+
+
+[params.profileMode]
+enabled = true
+
+[[module.imports]]
+path = "github.com/adityatelange/hugo-PaperMod"
