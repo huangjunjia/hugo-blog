@@ -17,9 +17,6 @@ pygmentsUseClasses = true
 disableXML = true
 minifyOutput = true
 
-[outputs]
-home = [ "HTML" ]
-
 [params]
 env = 'production'
 description = 'Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod'
